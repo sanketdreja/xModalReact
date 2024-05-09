@@ -17,7 +17,7 @@ export default function Modal() {
 
   return (
     <>
-      <h1>User Details Modal</h1>
+      <h1 className="btn-modal">User Details Modal</h1>
       <button onClick={toggleModal} className="btn-modal">
         Open Form
       </button>
